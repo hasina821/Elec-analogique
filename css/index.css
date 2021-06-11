@@ -1,0 +1,180 @@
+*{
+	box-sizing:border-box;
+	font-family: arial;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	width:100%;
+	height: 400px;
+	color: #fff;
+	text-align: center;
+}
+
+.bat{
+	width: 100%;
+	height: 100%;
+}
+
+.navbar{
+	position: sticky;
+	top: 0px;
+	background: #696969;
+	display: flex;
+	height: 70px;
+	width: 100%;
+}
+
+#inpu{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 20px;
+}
+
+.navbar a{
+	width: 200px;
+	padding: 25px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+.navbar a:hover, .navbar a.active{
+	background-color: #a9a9a9;
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 2px 2px 3px #696969;
+	border-top-color:#696969;	
+}
+
+
+#text,#text2{
+	margin: 40px;
+	padding: 20px;
+	height: auto;
+	width: auto;
+	color: #000;
+}
+
+p{
+	text-indent:5%;
+	text-align: justify;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+}
+
+#magi{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin: 20px;
+}
+
+
+	
+#inp{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0px auto;
+	background-color: #696969;
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px #696969;
+}
+#inp input{
+	flex: 1;
+	display: block;
+	margin: 20px;
+	height: 60px;
+	font-size: 25px;
+	text-align: center;
+	color: #696969;
+	border-radius: 20px;
+}
+
+
+
+
+
+#btn{
+	display: flex;
+	margin: 5px auto;
+	width:85%;
+	
+}
+
+#btn button{
+	flex: 1;
+	width:40%;
+	height: 80px;
+	color: #fff;
+	border-radius: 20px;
+	background-color: #696969;
+	font-size: 30px;
+}
+
+#btn button:hover{
+	background-color: #A9A9A9;
+	color: #fff;
+	text-shadow: 2px 2px 3px #696969;
+}
+
+
+#resu{
+	width: 85%;
+	height:auto;
+	background-color: #696969;
+	margin: 0px auto;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+
+
+
+
+#footer{
+	margin-top: 100px;
+	height: 200px;
+	width: 100%;
+	background-color: #696969;
+}
+
+
+@media only screen and (max-width : 800px){
+
+#btn{
+	display: flex;
+	margin: 5px auto;
+	width:85%;
+}
+
+#btn button{
+	flex: 1;
+	width:40%;
+	height: 80px;
+	color: #fff;
+	
+	background-color: #696969;
+	font-size: 30px;
+}
+
+#magi{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+}
+

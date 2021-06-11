@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="Javascript/index.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<img class="bat" src="images/head.jpg">
+		</div>
+		<div class="navbar">
+			<a href="">Accueil</a>
+			<a href="https://www.toutcalculer.com/electricite/tension-intensite-resistance-puissance.php">A propos</a>
+		</div>
+
+		<div id="text">
+			<h2>Introduction</h2>
+			<p>
+				Un circuit électrique au sens matériel est un
+				ensemble simple ou complexe de composants électriques
+				ou électroniques, y compris des simples conducteurs,
+				parcourus par un courant électrique.
+				Au sens de la théorie des circuits, un circuit
+				électrique est une abstraction des configurations
+				matérielles, un agencement d'éléments définis par des
+				relations mathématiques, reliés par des conducteurs
+				idéaux.
+			</p>
+
+			<p>
+				La loi d'Ohm est une formule utilisée pour calculer
+				la relation entre la tension, l'intensité et la
+				résistance dans un circuit électrique.
+				Elle s'écrit : U = R × I . U = tension aux bornes de
+				la résistance, en volt (V). I = intensité qui
+				traverse la résistance, en ampère (A). R = valeur de
+				la résistance, en Ohm (Ω).
+			</p>
+			<img src="images/moi.png" id="magi">
+			<p>
+				Un diviseur de courant est un montage électronique simple permettant d'obtenir un courant proportionnel à un autre courant. Le circuit est constitué de branches parallèles et s'étudie grâce aux lois de Kirchhoff et notamment à la loi des nœuds. Pour appliquer le diviseur de courant ayant déjà le courant total qui alimente le circuit on procède de la manière suivante : on multiplie le courant avec tous les dipôles autres que ceux que nous voulons déterminer son intensité qui circule a ces bornes, puis on le divise par la somme de toute ces dipôles. 
+			</p>
+		</div>
+		<div id="text2">
+			<p>Dans cette partie, je vais vous faciliter la résolution de
+				ce circuit éléctrique. Pour cela, il suffit juste d'insérer
+				les valeurs de U, R1, R2 et R3.
+			</p>
+		</div>
+
+		<div id="inp">
+	<input type="number" id="R1" placeholder="R1" required="required" min="1">
+	<input type="number" id="R2" placeholder="R2" required="required" min="1">
+	<input type="number" id="R3" placeholder="R3" required="required" min="1">
+	<input type="number" id="U" placeholder="U" required="required" min="1">
+		</div>
+			
+			<div id="btn">
+				<button onclick="calcul()">Calculer</button>
+				<button onclick="liberer()">Réinitialiser</button>
+			</div>
+
+			<div id="resu">
+			
+			</div>
+	
+			<div id="footer">
+				<img class="bat" src="images/foot.gif">
+			</div>
+
+		
+	</body>
+</html>
